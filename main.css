@@ -1,0 +1,14 @@
+html{
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    font-family: "open Sans";
+    color: white;
+    min-height: 100%; /*says the height of the body must be at minimum 100% of the window */
+}
+
+body.landing{
+    background-color: rgb(58,23,63);
+}
