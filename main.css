@@ -95,7 +95,7 @@ h2 {
     font-family: "ubuntu", sans-serif;
 }
 
-.navbar-link .home-page-link:hover {
+.navbar-link:hover {
     color: rgb(195,155,211);
 }
 
