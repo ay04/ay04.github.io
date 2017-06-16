@@ -50,39 +50,14 @@ h2 {
     margin-top: 200px;
     text-align: center;
     color: darkgray;
-
-    
 }
 
-.navbar {
-    position: relative;
+.navbar .page-link {
+    background: rgb(253,254,254);
+    display: block;
     padding: 0.5rem;
     z-index: 1;
-}
-
-.navbar .home-page-link {
-    position: relative;
-    left: 2rem;
-    cursor: pointer;
-    text-decoration: none;
     font-size: 25px;
-    color:darkgrey;
-
-}
-
-.navbar .links-container {
-    display: table;
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 100px;
-    color: black;
-    text-decoration: none;
-}
-
-.links-container .navbar-link {
-    display: table-cell;
-    position: relative;
     height: 100%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -94,12 +69,12 @@ h2 {
     text-transform: uppercase;
     font-family: "ubuntu", sans-serif;
     color:darkgrey;
+
+}
+#about #contact {
+    float:right;
 }
 
-.navbar-link:hover {
+.page-link:hover {
     color: rgb(195,155,211);
-}
-
-.home-page-link:hover {
-    color:rgb(195, 155, 211);
 }
